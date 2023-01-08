@@ -30,6 +30,8 @@ This was a project I used to demonstrate to my data analytics student from Devel
  
 2. Set up a virtual environment and install the [required libraries](https://github.com/graphshade/donorschoose/blob/main/requirements.txt)
 
-3. Run  ```commandline
+3. Run  
+
+```commandline
 python3 run.py
   ```
