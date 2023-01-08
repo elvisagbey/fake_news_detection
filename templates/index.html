@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>Authentiq</title>
@@ -11,7 +12,7 @@
   <link href="../static/img/favicon.png" rel="favicon.png">
   <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon.png">
   <!-- Google Fonts -->
- <link href="https:\\fonts.googleapis.com\css?family=Oswald:400,300,700|EB+Garamond" rel="stylesheet">
+  <link href="https:\\fonts.googleapis.com\css?family=Oswald:400,300,700|EB+Garamond" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="../static/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -22,6 +23,7 @@
   <!-- Main Stylesheet File -->
   <link href="../static/css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
 
@@ -29,61 +31,58 @@
   <section id="home" name="home"></section>
   <div id="headerwrap">
     <div class="container">
-      <div class="img">
+      <!-- <div class="img">
         <img src="../static/img/img.jpg", width="200", height="100">
       </div>
-      <br>
+      <br> -->
       <div class="row">
         <h1>AUTHENTIQ</h1>
         <br>
         <h3 style="font-style: italic;">Welcome</h3>
         <br>
-        <h6 style= "font:Garamond; color:whitesmoke; font-size: medium;">Enter the article here</h6>
-         <form method="POST">
-        <label for="text_id"></label> 
-        <br>
-        <textarea name="text"
-          id="text_id"
-          placeholder="Enter here"
-          cols="100"
-          rows="15"
-          required> 
+        <h6 style="font:Garamond; color:whitesmoke; font-size: medium;">Enter the article here</h6>
+        <form method="POST">
+          <label for="text_id"></label>
+          <br>
+          <textarea name="text" id="text_id" placeholder="Enter here" cols="100" rows="15" required>
         </textarea>
+          <br>
+          <input type="submit" id="submit_button">
+        </form>
+      </div>
+      <div id="results">
         <br>
-        <input type="submit" id="submit_button"> 
-      </form>
-    </div>
-       <div id="results">
-      <h3>Results</h3>
-      <span>News input </span>
-      <p>{{context.user_input}}</p>
-      <br>
-      <span>Prediction</span>
-      <p>{{context.prediction}}</p>
-      <br>
-      <span>Prediction Probabilities</span>
-      <p>Fake : {{context.prob_fake}} %</p>
-      <p>True : {{context.prob_true}} %</p>
+        <!-- <h3>Results</h3> -->
+        <!-- <span>News input </span>
+        <p>{{context.user_input}}</p>
+        <br> -->
+        <!-- <span>Prediction</span>
+        <p>{{context.prediction}} (</p> -->
+        <!-- <br> -->
+        <span>Predicted Probabilities</span>
+        <p>Fake : {{context.prob_fake}} %</p>
+        <p>True : {{context.prob_true}} %</p>
       </div>
     </div>
-       
-        </div>
-      </div>
-    </div>
-    <!-- /container -->
+
   </div>
-  
-  
-  <!-- ========== CONTACT SECTION ========== -->
+  </div>
+  </div>
+  <!-- /container -->
+  </div>
+
+
+  <!-- ========== CONTACT SECTION ==========
   <section id="contact" name="contact"></section>
   <div id="f">
     <div class="container">
       <div class="row">
         <h3>CONTACT US</h3>
-        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
+        <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+            class="icon icon-circle"></i></p>
 
         <div class="col-lg-6 col-lg-offset-3">
-          <p>Developers In Vogue<br/>Nima , Accra<br/>+233 237789900</p>
+          <p>Developers In Vogue<br />Nima , Accra<br />+233 237789900</p>
           <p>authentiq@gmail.com</p>
         </div>
       </div>
@@ -94,23 +93,27 @@
 
             <div class="form-group">
               <label for="contact-name">Your Name</label>
-              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
+              <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name"
+                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="form-group">
               <label for="contact-email">Your Email</label>
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email"
+                data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="form-group">
               <label for="contact-subject">Subject</label>
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
               <div class="validate"></div>
             </div>
 
             <div class="form-group">
               <label for="contact-message">Your Message</label>
-              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5"
+                data-rule="required" data-msg="Please write something for us"></textarea>
               <div class="validate"></div>
             </div>
 
@@ -127,10 +130,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  
-    </div>
+
+  </div>
   </div>
 
   <!-- JavaScript Libraries -->
@@ -140,8 +143,8 @@
   <script src="lib/easing/easing.min.js"></script>
 
   <!-- Javascript Function to toggle -->
-  
+
 
 </body>
-</html>
 
+</html>
