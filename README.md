@@ -1,9 +1,9 @@
 # Serving a Fake News Model Using Flask
 
-<img src="https://github.com/graphshade/donorschoose/blob/main/results/Historical%20distribution%20of%20exciting%20versus%20non-exciting%20projects.png" />
+<img src="https://github.com/graphshade/fake_news_detection/blob/master/static/img/fake_news.png" />
 
 <h2>Project Description</h2>
-This was a project I used to demonstrate to my data analytics student from Developers in Vogue how to serve a machine learning model using Flask
+This was a project I used to demonstrate to my data analytics student at Developers in Vogue how to serve a machine learning model using Flask
 
 <h2>Languages and Libraries Used</h2>
 
@@ -13,7 +13,7 @@ This was a project I used to demonstrate to my data analytics student from Devel
 
 <h2>Environment Used </h2>
 
-- <b>Ubuntu 18.04 LTS</b>
+- <b>Ubuntu 20.04 LTS</b>
 
 
 
@@ -24,11 +24,11 @@ This was a project I used to demonstrate to my data analytics student from Devel
 1. Clone the project: Run this from the command line
  
  ```commandline
- git clone https://github.com/graphshade/donorschoose.git
+ git clone https://github.com/graphshade/fake_news_detection.git
  cd fake_news_detectoin
  ```
  
-2. Set up a virtual environment and install the [required libraries](https://github.com/graphshade/donorschoose/blob/main/requirements.txt)
+2. Set up a virtual environment and install the [required libraries](https://github.com/graphshade/fake_news_detection/blob/master/requirements.txt)
 
 3. Run  
 
